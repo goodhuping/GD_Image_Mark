@@ -1,8 +1,8 @@
 <?php
-/* 水印处理代码 */
+/* 文字水印处理代码 */
 
 // 图像位置
-$scr = "upload/".$_FILES["file"]["name"];
+$scr = "upload/".$_FILES["file"]["name"][0];
 // 获取图像属性信息
 $info = getimagesize($scr);
 // 获取图像类型的文件后缀

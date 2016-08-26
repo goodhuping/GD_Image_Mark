@@ -1,4 +1,4 @@
-<select name="size">
+<select class="form-control" name="size" id="size">
 	<?php
 	/* 字体大小列表 */
 	

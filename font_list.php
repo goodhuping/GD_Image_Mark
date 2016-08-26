@@ -1,4 +1,4 @@
-<select name="font">
+<select name="font" multiple class="form-control" id="font">
 <?php
 //* 字体文件夹字体列表 */
 
